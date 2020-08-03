@@ -1,0 +1,14 @@
+{
+    "name": "Staff",
+    "slug": "Staff_alfiory__899612438",
+    "version": "1.0.2",
+    "id": "899612438",
+    "author": [
+        "Alfiory"
+    ],
+    "description": "Gérer votre équipe de la manière la plus simple possible !",
+    "aliases": "staff_alfiory",
+    "providers": [
+        "Extensions\\Plugins\\Staff_alfiory__899612438\\Providers\\StaffServiceProvider"
+    ]
+}

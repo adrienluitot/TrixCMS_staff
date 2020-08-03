@@ -1,0 +1,36 @@
+#page {
+    color: #111;
+    padding: 2rem 0;
+}
+
+.staff-members {
+    justify-content: center;
+}
+
+.member {
+    text-align: center;
+    margin: 0 1rem 1rem 1rem;
+}
+
+.member .img-container {
+    margin-bottom: .5rem;
+}
+.member .img-container img {
+    max-width: 100%;
+}
+
+
+.rank {
+    padding: .15rem .4rem;
+    color: #fff;
+    opacity: 1;
+    cursor: unset;
+    margin: 0 .4rem .5rem .4rem;
+    display: inline-block;
+}
+
+.member .name {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: .5rem;
+}

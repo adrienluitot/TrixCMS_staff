@@ -1,0 +1,109 @@
+/* GENERAL */
+#staff-ranks-list .rank {
+    padding: .15rem .4rem;
+    color: #fff;
+    opacity: 1;
+    cursor: unset;
+}
+
+a {
+    cursor: pointer;
+}
+
+a.delete-rank, a.delete-member {
+    color: tomato !important;
+    margin: 0 .4rem;
+}
+
+
+/* Members */
+.member-ranks {
+    font-size: 0;
+}
+.member-ranks .rank {
+    padding: .1rem .3rem;
+    opacity: 1;
+    margin: 0 .4rem .4rem 0;
+    font-size: .9rem;
+    cursor: unset;
+}
+.member-link {
+    margin-right: .3rem;
+}
+
+.link {
+    margin-bottom: 1rem;
+}
+
+.orderer {
+    color: #4e73df;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.orderer a {
+    display: flex;
+}
+.links .link:first-child .orderer .order-up {
+    cursor: default;
+    opacity: .6;
+    pointer-events: none;
+}
+.links .link:last-child .orderer .order-down {
+    cursor: default;
+    opacity: .6;
+    pointer-events: none;
+}
+
+.ranks {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
+}
+
+.rank {
+    position: relative;
+    background: #dd3434;
+    color: #fff;
+    display: inline-block;
+    padding: .2rem 1.9rem .2rem .6rem;
+    border-radius: .4rem;
+    opacity: .5;
+    cursor: pointer;
+    transition: opacity .3s;
+    margin: 0 .5rem .75rem .5rem;
+}
+.rank.enabled {
+    opacity: 1;
+}
+
+.rank .rank-checked {
+    position: absolute;
+    right: .6rem;
+    top: 50%; transform: translateY(-50%);
+    width: 13px;
+    height: 13px;
+    background: #fff;
+    display: inline-block;
+    margin-left: .2rem;
+    border-radius: 3px;
+    font-family: "Font Awesome 5 Free";
+}
+.rank .rank-checked::after {
+    position: absolute;
+    top: -10px; left: -2px;
+    content: "\f00c";
+    font-weight: 900;
+    color: #444;
+    transition: font-size .2s ease-in-out;
+    font-size: 0;
+    text-shadow: 1px 2px 2px rgba(30, 30, 30, .4);
+}
+
+.rank.enabled .rank-checked::after {
+    font-size: 20px;
+}
