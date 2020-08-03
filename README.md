@@ -1,2 +1,12 @@
-# trixcms_staff
-A plugin to list your staff for the multigaming CMS TrixCMS.
+# TrixCMS' Staff Plugin
+
+It's a plugin to list your staff for the multigaming CMS TrixCMS.
+
+## A bug ? A suggestion ?
+
+If you have any bug or any suggestion, you can create an issue and explain what you have and/or what you want.
+
+## Contributing
+
+If you want to contribute to this project feel free to fork it and to make Pull Requests! I would be glad to review them and to merge them!
+If you want to contribute but can't or don't want to develop, you can create an issue explaining what you want ;)
